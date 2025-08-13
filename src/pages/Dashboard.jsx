@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Dashboard = () => {
   return (
     <div className="min-h-screen flex flex-col ">
@@ -27,7 +29,7 @@ const Dashboard = () => {
           </span>
         </div>
         <button className="bg-[linear-gradient(100.57deg,_#B8943E_24.44%,_#976621_98.57%)] text-white px-6 py-3 rounded hover:opacity-90 font-medium mt-6">
-          CONTACT US
+          <NavLink to="/contact">CONTACT US</NavLink>
         </button>
       </div>
     </div>
