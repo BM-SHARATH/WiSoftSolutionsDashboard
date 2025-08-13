@@ -86,8 +86,8 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="min-h-[calc(100vh-80px)]">
-      <section className="bg-[#FBF5EF] py-8 px-2 sm:px-4 md:px-12 text-center">
+    <div className="flex flex-col min-h-[calc(100vh-80px)]">
+      <section className="flex-1 flex flex-col justify-center bg-[#FBF5EF] py-8 px-2 sm:px-4 md:px-12 text-center">
         <h2 className="text-2xl md:text-3xl font-semibold text-[#231F20] mb-8 tracking-wide">
           OUR SERVICES
         </h2>
