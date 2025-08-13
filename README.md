@@ -57,7 +57,7 @@ src/
 
 ---
 
-## 📦 Build for Production
+## Build for Production
 
 ```bash
 npm run build

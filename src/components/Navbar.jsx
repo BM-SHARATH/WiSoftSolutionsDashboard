@@ -16,18 +16,15 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 w-full z-50 ${navbarBg} px-4 sm:px-8 py-3 flex items-center justify-between text-white`}
     >
-      {/* Left Section - Phone */}
       <div className="flex items-center gap-2 text-yellow-500">
         <Phone size={18} />
         <span className="text-white">042 - 123456</span>
       </div>
 
-      {/* Hamburger for mobile */}
       <button className="sm:hidden text-white" onClick={() => setOpen(!open)}>
         {open ? <X size={28} /> : <Menu size={28} />}
       </button>
 
-      {/* Center Nav Links + Logo */}
       <ul
         className={`fixed sm:static top-[60px] left-0 w-full sm:w-auto bg-black/95 sm:bg-transparent flex flex-col sm:flex-row items-center gap-6 sm:gap-8 text-sm font-medium transition-all duration-300
 
@@ -115,7 +112,6 @@ const Navbar = () => {
         </NavLink>
       </ul>
 
-      {/* Right - Contact Button (desktop only) */}
       <NavLink
         to="/contact"
         className="hidden sm:block bg-gradient-to-r from-[#B8943E] to-[#976621] text-white px-5 py-2 rounded hover:opacity-90"

@@ -1,5 +1,3 @@
-import React from "react";
-
 import groupimg from "../assets/Group.png";
 import groupimg1 from "../assets/Group1.png";
 import groupimg2 from "../assets/Group2.png";
@@ -15,7 +13,6 @@ const services = [
     icon: (
       <img src={groupimg} className="h-16 w-16 object-contain mb-6" alt="" />
     ),
-
     title: "Leasing And Management Of Other People's Property",
   },
 
@@ -23,7 +20,6 @@ const services = [
     icon: (
       <img src={groupimg1} className="h-16 w-16 object-contain mb-6" alt="" />
     ),
-
     title: "Real Estate Management Supervision Services",
   },
 
@@ -31,7 +27,6 @@ const services = [
     icon: (
       <img src={groupimg2} className="h-16 w-16 object-contain mb-6" alt="" />
     ),
-
     title: "Real Estate Buying & Selling Brokerage",
   },
 
@@ -39,7 +34,6 @@ const services = [
     icon: (
       <img src={groupimg3} className="h-16 w-16 object-contain mb-6" alt="" />
     ),
-
     title: "Leasing Property Brokerage Agents",
   },
 
@@ -47,7 +41,6 @@ const services = [
     icon: (
       <img src={groupimg4} className="h-16 w-16 object-contain mb-6" alt="" />
     ),
-
     title: "Facilities Management Services",
   },
 
@@ -55,7 +48,6 @@ const services = [
     icon: (
       <img src={groupimg5} className="h-16 w-16 object-contain mb-6" alt="" />
     ),
-
     title: "Buying And Selling Of Own Real Estate",
   },
 
@@ -63,7 +55,6 @@ const services = [
     icon: (
       <img src={groupimg6} className="h-16 w-16 object-contain mb-6" alt="" />
     ),
-
     title: "Others Letting And Operating Of Own Or Leased Real Estate",
   },
 
@@ -71,7 +62,6 @@ const services = [
     icon: (
       <img src={groupimg7} className="h-16 w-16 object-contain mb-6" alt="" />
     ),
-
     title: "Real Estate Agencies",
   },
 
@@ -79,7 +69,6 @@ const services = [
     icon: (
       <img src={groupimg8} className="h-16 w-16 object-contain mb-6" alt="" />
     ),
-
     title: "Management Of Real Estate On A Fee Or Contract Basis",
   },
 ];
@@ -103,7 +92,6 @@ const Services = () => {
           ))}
         </div>
 
-        {/* Button */}
         <div className="mt-10 flex justify-center">
           <button className="bg-gradient-to-r from-[#B8943E] to-[#976621] text-white px-8 py-3 rounded font-semibold tracking-wide shadow hover:opacity-90 transition">
             ENQUIRE NOW
